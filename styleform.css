@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rajdhani:wght@300&display=swap');
+
+:root{
+    --head-bg-color: rgb(0, 0, 0);
+    --main-txt-color: rgba(255, 255, 255, 0.863);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footertext p{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.footerlogo img{
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+
+/*main page */
+
+body{
+    background-color: var(--head-bg-color);
+    margin: auto;
+}
+
+header{
+    display: flex;
+    margin: auto;
+}
+
+.logonoir{
+    width: 400px;
+    margin: 100px auto;
+}
+
+.textadrien{
+    height: 100px;
+}
+
+.textadrien > h2{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin: 0 386px;
+    padding: 10px;
+    text-align: center;
+    border: solid white 0.5px;
+    border-radius: 100px;
+    font-size: 30PX;
+}
+
+
+.enter{
+    display: flex;
+    margin: 70px 10px 0 auto;
+}
+
+
+.enter > h2{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 60px 0 auto;
+    color: white;
+}
+
+.enter > h2 > a{
+    color: white;
+    padding: 10px;
+}
+
+.enter > h2 > a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 50px;
+}
+
+
+
+/*page présentations*/
+
+#indexpage{
+    background-color: rgb(255, 255, 255);
+}
+
+.logoblanc{
+    width: 100px;
+    height: 80px;
+}
+
+.navbar{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.navbar .navlinks ul{
+    display: flex;
+}
+
+.navbar .navlinks ul li{
+    margin: 0 100px;
+}
+
+
+.navbar .navlinks ul li a{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: solid 1px black;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+.navbar .navlinks ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.mesprojets{
+    display: flex;
+    align-items: center;
+}
+
+.noimage{
+    width: 250px;
+    margin: 210px auto;
+    border-radius: 20px;
+}
+
+.noimage:hover{
+    transform: scale(1.1);
+}
+
+/* page formulaire */
+
+.formcontact{
+    border: 0;
+    margin: 20px auto;
+}
+
+.formcontact p{
+    margin: 20px auto 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 5rem;
+    justify-content: space-between;
+}
+
+.button{
+    margin: 2px auto 20px 10px;
+    width: 80px;
+    height: 30px;
+    border: solid 0.5px white;
+    border-radius: 50px;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    color: black;
+    border: solid 0.5px white;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+.buttonfooter{
+    background-color: red;
+    margin-bottom: 265px;
+}
+
