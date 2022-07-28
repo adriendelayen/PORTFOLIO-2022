@@ -12,6 +12,7 @@
     list-style-type: none;
 }
 
+
 #footer{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -146,11 +147,13 @@ header{
 .mesprojets{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    height: 632px;
 }
 
 .noimage{
     width: 250px;
-    margin: 210px auto;
+    height: 190px;
     border-radius: 20px;
 }
 
